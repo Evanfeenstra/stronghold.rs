@@ -1,0 +1,9 @@
+{
+  "name": "com.iota.stronghold",
+  "description": "Stronghold",
+  "path": "/Users/evanfeenstra/code/forks/stronghold.rs/engine/examples/native_messaging/target/debug/stronghold",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ijchcnfbbipcmijehfmihpmenfdkgfgo/"
+  ]
+}

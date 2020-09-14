@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chrome Native Messaging Example</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h1>Stronghold Native Messaging</h1>
+
+    <hr>
+
+    <p>
+        <h2>Encrypt</h2>
+        <textarea id="encrypt-plaintext" rows="4" cols="40" placeholder="my message to encrypt"></textarea>
+        <input id="encrypt-pwd" placeholder="Password">
+        <button id="encrypt-button">Encrypt</button>
+        <pre id="encrypt-res"></pre>
+    </p>
+    
+    <hr>
+
+    <p>
+        <h2>List</h2>
+        <input id="list-pwd" placeholder="Password">
+        <button id="list-button">List</button>
+        <pre id="list-res"></pre>
+    </p>
+
+    <hr>
+
+    <p>
+        <h2>Decrypt</h2>
+        <input id="decrypt-id" placeholder="Id">
+        <input id="decrypt-pwd" placeholder="Password">
+        <button id="decrypt-button">Decrypt</button>
+        <pre id="decrypt-res"></pre>
+    </p>
+
+    <script src="main.js"></script>
+</body>
+</html>

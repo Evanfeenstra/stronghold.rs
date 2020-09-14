@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Stronghold Native Messaging Example",
+  "version": "1.0",
+  "description": "Encrypt / Decrypt data.",
+  "app": {
+    "background": {
+      "scripts": [ "background.js" ]
+    }
+  },
+  "permissions": [
+    "nativeMessaging"
+  ]
+}
